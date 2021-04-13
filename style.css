@@ -1,0 +1,77 @@
+
+img{width:200px;border-radius:50%;height:180px;box-shadow: 0 10px 30px rgba(0,0,0,.1); }
+
+body{font-family:'Bitter',serif;background:#F9F2F0;color:#221D1B;}
+
+h3{font-family:'Bitter',serif;color:#221D1B;}
+
+p{font-family: 'Source Serif Pro', serif;}
+
+a {
+  color: #EFDDD7 ;
+  text-decoration: none;
+}
+
+.card-white {
+	background: white;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.container{
+	width: 50%;
+	margin: 0 auto;
+}
+
+@media (max-width: 720px){
+	.container{width:500px;}
+}
+
+@media (max-width: 520px) {
+	.container {width: 300px;}
+}
+
+a.hover\.link {
+    background: #EFDDD7;
+    padding: 10px;
+    border-radius: 4px;
+    transition: none;
+    color:#221D1B;
+    margin-bottom:10px;
+}
+
+a.hover\.link:hover {
+	background:#D19B8C;
+	color: white 
+	
+}
+
+.list\.inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list\.inline li{
+	display: inline;
+	padding: 20px;
+}
+
+.list\.inline i{
+	font-size:50px;
+}
+
+.list\.inline i:hover{
+	font-size:50px;
+	color:#D19B8C;
+}
+
+#introduction p{
+	margin-bottom: 35px;
+}
+
+
+
+
